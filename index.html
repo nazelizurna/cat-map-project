@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cat Lovers Global Travel Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --bg:#fffaf5; --fg:#2b2320; --muted:#7a6a62; --accent:#d9732b; --chip:#fff; --line:#ecdfd5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1e1a18; --fg:#f3ebe5; --muted:#b3a299; --accent:#f0914d; --chip:#2a2522; --line:#3b3430; }
+  }
+  * { box-sizing: border-box; }
+  html, body { height:100%; margin:0; }
+  body { display:flex; flex-direction:column; background:var(--bg); color:var(--fg);
+         font:15px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding:12px 16px 8px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 2px; font-size:1.15rem; }
+  #count { color:var(--muted); font-size:.85rem; }
+  #filters { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .chip { display:inline-flex; align-items:center; gap:6px; padding:4px 10px; border-radius:999px;
+          border:1px solid var(--line); background:var(--chip); color:var(--fg); cursor:pointer; font:inherit; font-size:.85rem; }
+  .chip img { width:18px; height:18px; object-fit:contain; }
+  .chip[aria-pressed="false"] { opacity:.45; }
+  .chip small { color:var(--muted); }
+  #map { flex:1; min-height:0; }
+  .pin { background:none; border:none; }
+  .pin img { width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 1px 2px rgba(0,0,0,.45)); }
+  .pin span { font-size:24px; line-height:34px; display:block; text-align:center; }
+  .popup h3 { margin:0 0 2px; font-size:1rem; }
+  .popup .meta { color:#6b5f58; font-size:.85rem; margin-bottom:4px; }
+  .popup a { color:#c25f1a; font-weight:600; }
+  #error { padding:10px 16px; background:#fde8e0; color:#7a2a10; display:none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🐾 Cat Lovers Global Travel Map</h1>
+  <div id="count">Loading…</div>
+  <div id="filters" role="group" aria-label="Filter by place type"></div>
+</header>
+<div id="error"></div>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script>
+// ---- Settings: same type -> icon mapping as make_cat_kml.py ----
+const ICON_DIR = "assests/";            // folder in your repo that holds the icon PNGs
+const ICONS = {
+  "City": "city.png", "Island": "island.png", "Village": "village.png",
+  "Sanctuary": "sanctuary.png", "Museum": "museum.png", "Park": "park.png",
+  "Historic Site": "historical.png", "Temple/Shrine": "shrine.png",
+  "Pub/Bar": "pub.png", "Cafe": "cafe.png", "Festival": "festival.png",
+  "Festival/Convention": "park con.png"
+};
+const CSV_FILE = "cat_places.csv";
+// ----------------------------------------------------------------
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const iconUrl = type => ICONS[type] ? ICON_DIR + encodeURI(ICONS[type]) : null;
+
+const map = L.map("map", { worldCopyJump: true }).setView([30, 10], 2);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+function pinIcon(type) {
+  const url = iconUrl(type);
+  const html = url
+    ? `<img src="${esc(url)}" alt="" onerror="this.outerHTML='<span>🐾</span>'">`
+    : "<span>🐾</span>";
+  return L.divIcon({ className: "pin", html, iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -16] });
+}
+
+function showError(msg) {
+  const el = document.getElementById("error");
+  el.textContent = msg; el.style.display = "block";
+  document.getElementById("count").textContent = "";
+}
+
+fetch(CSV_FILE + "?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error(`Could not load ${CSV_FILE} (HTTP ${r.status})`); return r.text(); })
+  .then(text => {
+    const rows = Papa.parse(text, { header: true, skipEmptyLines: true }).data;
+    const layers = {};      // type -> L.layerGroup
+    const counts = {};
+    const all = [];
+    let missing = 0;
+
+    rows.forEach(r => {
+      const lat = parseFloat(r.Lat), lon = parseFloat(r.Lon);
+      if (isNaN(lat) || isNaN(lon)) { missing++; return; }
+      const type = (r.Type || "").trim();
+      const q = encodeURIComponent(`${lat},${lon}`);
+      const popup = `<div class="popup"><h3>${esc(r.Name)}</h3>
+        <div class="meta">${esc(type)} · ${esc(r.Location)}, ${esc(r.Country)}</div>
+        <div>${esc(r.Address)}</div>
+        <div style="margin-top:6px"><a target="_blank" rel="noopener"
+          href="https://www.google.com/maps/search/?api=1&query=${q}">Open in Google Maps ↗</a></div></div>`;
+      const m = L.marker([lat, lon], { icon: pinIcon(type), title: r.Name }).bindPopup(popup);
+      (layers[type] ||= L.layerGroup().addTo(map)).addLayer(m);
+      counts[type] = (counts[type] || 0) + 1;
+      all.push([lat, lon]);
+    });
+
+    if (all.length) map.fitBounds(all, { padding: [30, 30], maxZoom: 6 });
+
+    const total = all.length;
+    document.getElementById("count").textContent =
+      `${total} places` + (missing ? ` (${missing} not shown: no coordinates yet)` : "");
+
+    // type filter chips
+    const box = document.getElementById("filters");
+    Object.keys(counts).sort().forEach(type => {
+      const b = document.createElement("button");
+      b.className = "chip"; b.type = "button"; b.setAttribute("aria-pressed", "true");
+      const url = iconUrl(type);
+      b.innerHTML = (url ? `<img src="${esc(url)}" alt="" onerror="this.remove()">` : "") +
+                    `${esc(type)} <small>${counts[type]}</small>`;
+      b.addEventListener("click", () => {
+        const on = b.getAttribute("aria-pressed") === "true";
+        b.setAttribute("aria-pressed", String(!on));
+        on ? map.removeLayer(layers[type]) : map.addLayer(layers[type]);
+      });
+      box.appendChild(b);
+    });
+  })
+  .catch(err => showError(err.message + ". If you opened index.html straight from disk, serve it with a web server or view it on GitHub Pages."));
+</script>
+</body>
+</html>
