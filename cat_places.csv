@@ -1,45 +1,37 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2870
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 Name,Location,Country,Type,Icon,Address\
-Istanbul,Istanbul,Turkey,City,\uc0\u55356 \u57305 \u65039 ,"Istanbul, Turkey"\
-Tashirojima Island,Miyagi Prefecture,Japan,Island,\uc0\u55356 \u57309 \u65039 ,"Tashirojima, Ishinomaki, Miyagi 986-2111, Japan"\
-Aoshima Island,Ehime Prefecture,Japan,Island,\uc0\u55356 \u57309 \u65039 ,"Aoshima, Nagahama-cho, Ozu, Ehime 799-3470, Japan"\
-Houtong Cat Village,New Taipei City,Taiwan,Village,\uc0\u55356 \u57313 ,"\u26612 \u23534 \u36335  Ruifang District, New Taipei City, Taiwan 224"\
-Largo di Torre Argentina,Rome,Italy,Sanctuary,\uc0\u55357 \u56382 ,"Largo di Torre Argentina, 00186 Roma RM, Italy"\
-Kotor Old Town,Kotor,Montenegro,City,\uc0\u55356 \u57305 \u65039 ,"Old Town, Kotor 85330, Montenegro"\
-The Ernest Hemingway Home and Museum,"Key West, Florida",USA,Museum,\uc0\u55356 \u57307 \u65039 ,"907 Whitehead St, Key West, FL 33040, USA"\
-Kuching,"Sarawak, Borneo",Malaysia,City,\uc0\u55356 \u57305 \u65039 ,"Kuching, Sarawak, Malaysia"\
-The Hermitage Museum,St. Petersburg,Russia,Museum,\uc0\u55356 \u57307 \u65039 ,"Palace Square, 2, St Petersburg, Russia, 191186"\
-De Poezenboot (The Cat Boat),Amsterdam,Netherlands,Sanctuary,\uc0\u55357 \u56382 ,"Singel 38-G, 1015 AB Amsterdam, Netherlands"\
-Kattenkabinet (Cat Cabinet),Amsterdam,Netherlands,Museum,\uc0\u55356 \u57307 \u65039 ,"Herengracht 497, 1017 BT Amsterdam, Netherlands"\
-Lanai Cat Sanctuary,"Lanai City, Hawaii",USA,Sanctuary,\uc0\u55357 \u56382 ,"12 Mile Rd, Lanai City, HI 96763, USA"\
-Syros Island,Cyclades,Greece,Island,\uc0\u55356 \u57309 \u65039 ,"Syros, Cyclades, Greece"\
-Parque Kennedy,"Miraflores, Lima",Peru,Park,\uc0\u55356 \u57139 ,"Diagonal, Miraflores 15074, Peru"\
-Ainoshima Island,Fukuoka Prefecture,Japan,Island,\uc0\u55356 \u57309 \u65039 ,"Ainoshima, Shingu, Kasuya District, Fukuoka 811-0100, Japan"\
-Sayanagijima Island,Kagawa Prefecture,Japan,Island,\uc0\u55356 \u57309 \u65039 ,"Sayanagijima, Tadotsu, Nakatado District, Kagawa 764-0040, Japan"\
-Kotor Cat Museum,Kotor,Montenegro,Museum,\uc0\u55356 \u57307 \u65039 ,"Trg od Drva, Kotor 85330, Montenegro"\
-The Cat Museum,Siauliai,Lithuania,Museum,\uc0\u55356 \u57307 \u65039 ,"\'8euvinink\u371  g. 18, \'8aiauliai 76249, Lithuania"\
-Kuching Cat Museum,"Kuching, Sarawak",Malaysia,Museum,\uc0\u55356 \u57307 \u65039 ,"Bangunan DBKU, Jalan Linkaran Dalam, Al-Idrus, 93050 Kuching, Sarawak, Malaysia"\
-Maneki-Neko Museum,"Seto, Aichi Prefecture",Japan,Museum,\uc0\u55356 \u57307 \u65039 ,"2 Yakushimachi, Seto, Aichi 489-0814, Japan"\
-The American Museum of the House Cat,"Sylva, North Carolina",USA,Museum,\uc0\u55356 \u57307 \u65039 ,"4704 US-441, Sylva, NC 28779, USA"\
-The San Francisco Cat Museum,"San Francisco, California",USA,Museum,\uc0\u55356 \u57307 \u65039 ,"San Francisco, CA, USA"\
-The Cat Museum,Mexico City,Mexico,Museum,\uc0\u55356 \u57307 \u65039 ,"Avenida \'c1lvaro Obreg\'f3n 110, Roma Nte., Cuauht\'e9moc, 06700 Ciudad de M\'e9xico, CDMX, Mexico"\
-Cat Museum Budapest,Budapest,Hungary,Museum,\uc0\u55356 \u57307 \u65039 ,"Budapest, Vad\'e1sz u. 26, 1054 Hungary"\
-Feline Historical Museum,"Alliance, Ohio",USA,Museum,\uc0\u55356 \u57307 \u65039 ,"260 E Main St, Alliance, OH 44601, USA"\
-Lucky Cat Museum,"Cincinnati, Ohio",USA,Museum,\uc0\u55356 \u57307 \u65039 ,"2511 Essex Pl, Cincinnati, OH 45206, USA"\
-The Persian Cat Museum,Tehran,Iran,Museum,\uc0\u55356 \u57307 \u65039 ,"Tehran Province, Tehran, District 6, Kehavarz Blvd, Iran"\
-Onomichi City Museum of Art,Hiroshima,Japan,Museum,\uc0\u55356 \u57307 \u65039 ,"17-19 Nishitsubochoco, Onomichi, Hiroshima 722-0032, Japan"\
-The Alamo,"San Antonio, Texas",USA,Historic Site,\uc0\u55356 \u57307 \u65039 ,"300 Alamo Plaza, San Antonio, TX 78205, USA"\
-Gotokuji Temple,Tokyo,Japan,Temple/Shrine,\uc0\u9961 \u65039 ,"2-ch\u333 me-24-7 G\u333 tokuji, Setagaya City, Tokyo 154-0021, Japan"\
-Imado Shrine,Tokyo,Japan,Temple/Shrine,\uc0\u9961 \u65039 ,"1-ch\u333 me-5-22 Imado, Taito City, Tokyo 111-0024, Japan"\
-The Brown Bars of Amsterdam,Amsterdam,Netherlands,Pub/Bar,\uc0\u55356 \u57210 ,"Zeedijk 63, 1012 AS Amsterdam, Netherlands"\
-The Historic Pubs of Utrecht,Utrecht,Netherlands,Pub/Bar,\uc0\u55356 \u57210 ,"Oudegracht 114, 3511 AV Utrecht, Netherlands"\
-Cat Flower Garden,Taipei,Taiwan,Cafe,\uc0\u9749 ,"No. 129, Fuhua Rd, Shilin District, Taipei City, Taiwan 111"\
-Kattenstoet,Ypres,Belgium,Festival,\uc0\u55356 \u57261 ,"Grote Markt 34, 8900 Ieper, Belgium"\
-CatCon,"Pasadena, California",USA,Festival/Convention,\uc0\u55356 \u57261 ,"300 E Green St, Pasadena, CA 91101, USA"\
-}
+Name,Location,Country,Type,Address,Lat,Lon
+Istanbul,Istanbul,Turkey,City,"Istanbul, Turkey",41.0082,28.9784
+Tashirojima Island,Miyagi Prefecture,Japan,Island,"Tashirojima, Ishinomaki, Miyagi 986-2111, Japan",38.2847,141.4283
+Aoshima Island,Ehime Prefecture,Japan,Island,"Aoshima, Nagahama-cho, Ozu, Ehime 799-3470, Japan",33.5300,132.4800
+Houtong Cat Village,New Taipei City,Taiwan,Village,"柴寮路 Ruifang District, New Taipei City, Taiwan 224",25.0875,121.8277
+Largo di Torre Argentina,Rome,Italy,Sanctuary,"Largo di Torre Argentina, 00186 Roma RM, Italy",41.8956,12.4769
+Kotor Old Town,Kotor,Montenegro,City,"Old Town, Kotor 85330, Montenegro",42.4247,18.7712
+The Ernest Hemingway Home and Museum,"Key West, Florida",USA,Museum,"907 Whitehead St, Key West, FL 33040, USA",24.5513,-81.8010
+Kuching,"Sarawak, Borneo",Malaysia,City,"Kuching, Sarawak, Malaysia",1.5535,110.3593
+The Hermitage Museum,St. Petersburg,Russia,Museum,"Palace Square, 2, St Petersburg, Russia, 191186",59.9398,30.3146
+De Poezenboot (The Cat Boat),Amsterdam,Netherlands,Sanctuary,"Singel 38-G, 1015 AB Amsterdam, Netherlands",52.3695,4.8885
+Kattenkabinet (Cat Cabinet),Amsterdam,Netherlands,Museum,"Herengracht 497, 1017 BT Amsterdam, Netherlands",52.3633,4.8937
+Lanai Cat Sanctuary,"Lanai City, Hawaii",USA,Sanctuary,"12 Mile Rd, Lanai City, HI 96763, USA",20.8190,-156.9230
+Syros Island,Cyclades,Greece,Island,"Syros, Cyclades, Greece",37.4440,24.9410
+Parque Kennedy,"Miraflores, Lima",Peru,Park,"Diagonal, Miraflores 15074, Peru",-12.1219,-77.0300
+Ainoshima Island,Fukuoka Prefecture,Japan,Island,"Ainoshima, Shingu, Kasuya District, Fukuoka 811-0100, Japan",33.6714,130.4551
+Sayanagijima Island,Kagawa Prefecture,Japan,Island,"Sayanagijima, Tadotsu, Nakatado District, Kagawa 764-0040, Japan",34.3000,133.7600
+Kotor Cat Museum,Kotor,Montenegro,Museum,"Trg od Drva, Kotor 85330, Montenegro",42.4250,18.7700
+The Cat Museum,Siauliai,Lithuania,Museum,"Žuvininkų g. 18, Šiauliai 76249, Lithuania",55.9340,23.3150
+Kuching Cat Museum,"Kuching, Sarawak",Malaysia,Museum,"Bangunan DBKU, Jalan Linkaran Dalam, Al-Idrus, 93050 Kuching, Sarawak, Malaysia",1.5900,110.3330
+Maneki-Neko Museum,"Seto, Aichi Prefecture",Japan,Museum,"2 Yakushimachi, Seto, Aichi 489-0814, Japan",35.2236,137.0861
+The American Museum of the House Cat,"Sylva, North Carolina",USA,Museum,"4704 US-441, Sylva, NC 28779, USA",35.3737,-83.2257
+The San Francisco Cat Museum,"San Francisco, California",USA,Museum,"San Francisco, CA, USA",37.7749,-122.4194
+The Cat Museum,Mexico City,Mexico,Museum,"Avenida Álvaro Obregón 110, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",19.4177,-99.1627
+Cat Museum Budapest,Budapest,Hungary,Museum,"Budapest, Vadász u. 26, 1054 Hungary",47.5040,19.0500
+Feline Historical Museum,"Alliance, Ohio",USA,Museum,"260 E Main St, Alliance, OH 44601, USA",40.9153,-81.1059
+Lucky Cat Museum,"Cincinnati, Ohio",USA,Museum,"2511 Essex Pl, Cincinnati, OH 45206, USA",39.1260,-84.4880
+The Persian Cat Museum,Tehran,Iran,Museum,"Tehran Province, Tehran, District 6, Kehavarz Blvd, Iran",35.7100,51.3960
+Onomichi City Museum of Art,Hiroshima,Japan,Museum,"17-19 Nishitsubochoco, Onomichi, Hiroshima 722-0032, Japan",34.4000,133.2010
+The Alamo,"San Antonio, Texas",USA,Historic Site,"300 Alamo Plaza, San Antonio, TX 78205, USA",29.4260,-98.4861
+Gotokuji Temple,Tokyo,Japan,Temple/Shrine,"2-chōme-24-7 Gōtokuji, Setagaya City, Tokyo 154-0021, Japan",35.6490,139.6470
+Imado Shrine,Tokyo,Japan,Temple/Shrine,"1-chōme-5-22 Imado, Taito City, Tokyo 111-0024, Japan",35.7195,139.8010
+The Brown Bars of Amsterdam,Amsterdam,Netherlands,Pub/Bar,"Zeedijk 63, 1012 AS Amsterdam, Netherlands",52.3750,4.9000
+The Historic Pubs of Utrecht,Utrecht,Netherlands,Pub/Bar,"Oudegracht 114, 3511 AV Utrecht, Netherlands",52.0920,5.1190
+Cat Flower Garden,Taipei,Taiwan,Cafe,"No. 129, Fuhua Rd, Shilin District, Taipei City, Taiwan 111",25.0890,121.5260
+Kattenstoet,Ypres,Belgium,Festival,"Grote Markt 34, 8900 Ieper, Belgium",50.8512,2.8855
+CatCon,"Pasadena, California",USA,Festival/Convention,"300 E Green St, Pasadena, CA 91101, USA",34.1436,-118.1447
