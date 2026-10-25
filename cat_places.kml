@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cat Lovers Global Travel Map</name>
+    <Style id="City">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/city.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Island">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/island.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Village">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/village.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Sanctuary">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/sanctuary.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Museum">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/museum.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Park">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/park.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Historic_Site">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/historical.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Temple_Shrine">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/shrine.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Pub_Bar">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/pub.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Cafe">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/cafe.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Festival">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/festival.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="Festival_Convention">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon><href>https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/conventions.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Cities</name>
+      <Placemark>
+        <name>Istanbul</name>
+        <description>Type: City
+Region: Istanbul, Turkey
+Address: Istanbul, Turkey</description>
+        <styleUrl>#City</styleUrl>
+        <Point><coordinates>28.9784,41.0082,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Kotor Old Town</name>
+        <description>Type: City
+Region: Kotor, Montenegro
+Address: Old Town, Kotor 85330, Montenegro</description>
+        <styleUrl>#City</styleUrl>
+        <Point><coordinates>18.7712,42.4247,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuching</name>
+        <description>Type: City
+Region: Sarawak, Borneo, Malaysia
+Address: Kuching, Sarawak, Malaysia</description>
+        <styleUrl>#City</styleUrl>
+        <Point><coordinates>110.3593,1.5535,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Islands</name>
+      <Placemark>
+        <name>Tashirojima Island</name>
+        <description>Type: Island
+Region: Miyagi Prefecture, Japan
+Address: Tashirojima, Ishinomaki, Miyagi 986-2111, Japan</description>
+        <styleUrl>#Island</styleUrl>
+        <Point><coordinates>141.4283,38.2847,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Aoshima Island</name>
+        <description>Type: Island
+Region: Ehime Prefecture, Japan
+Address: Aoshima, Nagahama-cho, Ozu, Ehime 799-3470, Japan</description>
+        <styleUrl>#Island</styleUrl>
+        <Point><coordinates>132.4800,33.5300,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Syros Island</name>
+        <description>Type: Island
+Region: Cyclades, Greece
+Address: Syros, Cyclades, Greece</description>
+        <styleUrl>#Island</styleUrl>
+        <Point><coordinates>24.9410,37.4440,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Ainoshima Island</name>
+        <description>Type: Island
+Region: Fukuoka Prefecture, Japan
+Address: Ainoshima, Shingu, Kasuya District, Fukuoka 811-0100, Japan</description>
+        <styleUrl>#Island</styleUrl>
+        <Point><coordinates>130.4551,33.6714,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Sayanagijima Island</name>
+        <description>Type: Island
+Region: Kagawa Prefecture, Japan
+Address: Sayanagijima, Tadotsu, Nakatado District, Kagawa 764-0040, Japan</description>
+        <styleUrl>#Island</styleUrl>
+        <Point><coordinates>133.7600,34.3000,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Villages</name>
+      <Placemark>
+        <name>Houtong Cat Village</name>
+        <description>Type: Village
+Region: New Taipei City, Taiwan
+Address: 柴寮路 Ruifang District, New Taipei City, Taiwan 224</description>
+        <styleUrl>#Village</styleUrl>
+        <Point><coordinates>121.8277,25.0875,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sanctuaries</name>
+      <Placemark>
+        <name>Largo di Torre Argentina</name>
+        <description>Type: Sanctuary
+Region: Rome, Italy
+Address: Largo di Torre Argentina, 00186 Roma RM, Italy</description>
+        <styleUrl>#Sanctuary</styleUrl>
+        <Point><coordinates>12.4769,41.8956,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>De Poezenboot (The Cat Boat)</name>
+        <description>Type: Sanctuary
+Region: Amsterdam, Netherlands
+Address: Singel 38-G, 1015 AB Amsterdam, Netherlands</description>
+        <styleUrl>#Sanctuary</styleUrl>
+        <Point><coordinates>4.8885,52.3695,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Lanai Cat Sanctuary</name>
+        <description>Type: Sanctuary
+Region: Lanai City, Hawaii, USA
+Address: 12 Mile Rd, Lanai City, HI 96763, USA</description>
+        <styleUrl>#Sanctuary</styleUrl>
+        <Point><coordinates>-156.9230,20.8190,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Museums</name>
+      <Placemark>
+        <name>The Ernest Hemingway Home and Museum</name>
+        <description>Type: Museum
+Region: Key West, Florida, USA
+Address: 907 Whitehead St, Key West, FL 33040, USA</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>-81.8010,24.5513,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The Hermitage Museum</name>
+        <description>Type: Museum
+Region: St. Petersburg, Russia
+Address: Palace Square, 2, St Petersburg, Russia, 191186</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>30.3146,59.9398,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Kattenkabinet (Cat Cabinet)</name>
+        <description>Type: Museum
+Region: Amsterdam, Netherlands
+Address: Herengracht 497, 1017 BT Amsterdam, Netherlands</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>4.8937,52.3633,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Kotor Cat Museum</name>
+        <description>Type: Museum
+Region: Kotor, Montenegro
+Address: Trg od Drva, Kotor 85330, Montenegro</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>18.7700,42.4250,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The Cat Museum</name>
+        <description>Type: Museum
+Region: Siauliai, Lithuania
+Address: Žuvininkų g. 18, Šiauliai 76249, Lithuania</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>23.3150,55.9340,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuching Cat Museum</name>
+        <description>Type: Museum
+Region: Kuching, Sarawak, Malaysia
+Address: Bangunan DBKU, Jalan Linkaran Dalam, Al-Idrus, 93050 Kuching, Sarawak, Malaysia</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>110.3330,1.5900,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Maneki-Neko Museum</name>
+        <description>Type: Museum
+Region: Seto, Aichi Prefecture, Japan
+Address: 2 Yakushimachi, Seto, Aichi 489-0814, Japan</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>137.0861,35.2236,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The American Museum of the House Cat</name>
+        <description>Type: Museum
+Region: Sylva, North Carolina, USA
+Address: 4704 US-441, Sylva, NC 28779, USA</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>-83.2257,35.3737,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The San Francisco Cat Museum</name>
+        <description>Type: Museum
+Region: San Francisco, California, USA
+Address: San Francisco, CA, USA</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>-122.4194,37.7749,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The Cat Museum</name>
+        <description>Type: Museum
+Region: Mexico City, Mexico
+Address: Avenida Álvaro Obregón 110, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>-99.1627,19.4177,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat Museum Budapest</name>
+        <description>Type: Museum
+Region: Budapest, Hungary
+Address: Budapest, Vadász u. 26, 1054 Hungary</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>19.0500,47.5040,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Feline Historical Museum</name>
+        <description>Type: Museum
+Region: Alliance, Ohio, USA
+Address: 260 E Main St, Alliance, OH 44601, USA</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>-81.1059,40.9153,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Lucky Cat Museum</name>
+        <description>Type: Museum
+Region: Cincinnati, Ohio, USA
+Address: 2511 Essex Pl, Cincinnati, OH 45206, USA</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>-84.4880,39.1260,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The Persian Cat Museum</name>
+        <description>Type: Museum
+Region: Tehran, Iran
+Address: Tehran Province, Tehran, District 6, Kehavarz Blvd, Iran</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>51.3960,35.7100,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Onomichi City Museum of Art</name>
+        <description>Type: Museum
+Region: Hiroshima, Japan
+Address: 17-19 Nishitsubochoco, Onomichi, Hiroshima 722-0032, Japan</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>133.2010,34.4000,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Parks</name>
+      <Placemark>
+        <name>Parque Kennedy</name>
+        <description>Type: Park
+Region: Miraflores, Lima, Peru
+Address: Diagonal, Miraflores 15074, Peru</description>
+        <styleUrl>#Park</styleUrl>
+        <Point><coordinates>-77.0300,-12.1219,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Historic Sites</name>
+      <Placemark>
+        <name>The Alamo</name>
+        <description>Type: Historic Site
+Region: San Antonio, Texas, USA
+Address: 300 Alamo Plaza, San Antonio, TX 78205, USA</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>-98.4861,29.4260,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Temples &amp; Shrines</name>
+      <Placemark>
+        <name>Gotokuji Temple</name>
+        <description>Type: Temple/Shrine
+Region: Tokyo, Japan
+Address: 2-chōme-24-7 Gōtokuji, Setagaya City, Tokyo 154-0021, Japan</description>
+        <styleUrl>#Temple_Shrine</styleUrl>
+        <Point><coordinates>139.6470,35.6490,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Imado Shrine</name>
+        <description>Type: Temple/Shrine
+Region: Tokyo, Japan
+Address: 1-chōme-5-22 Imado, Taito City, Tokyo 111-0024, Japan</description>
+        <styleUrl>#Temple_Shrine</styleUrl>
+        <Point><coordinates>139.8010,35.7195,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Pubs &amp; Bars</name>
+      <Placemark>
+        <name>The Brown Bars of Amsterdam</name>
+        <description>Type: Pub/Bar
+Region: Amsterdam, Netherlands
+Address: Zeedijk 63, 1012 AS Amsterdam, Netherlands</description>
+        <styleUrl>#Pub_Bar</styleUrl>
+        <Point><coordinates>4.9000,52.3750,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The Historic Pubs of Utrecht</name>
+        <description>Type: Pub/Bar
+Region: Utrecht, Netherlands
+Address: Oudegracht 114, 3511 AV Utrecht, Netherlands</description>
+        <styleUrl>#Pub_Bar</styleUrl>
+        <Point><coordinates>5.1190,52.0920,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Cafes</name>
+      <Placemark>
+        <name>Cat Flower Garden</name>
+        <description>Type: Cafe
+Region: Taipei, Taiwan
+Address: No. 129, Fuhua Rd, Shilin District, Taipei City, Taiwan 111</description>
+        <styleUrl>#Cafe</styleUrl>
+        <Point><coordinates>121.5260,25.0890,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Festivals</name>
+      <Placemark>
+        <name>Kattenstoet</name>
+        <description>Type: Festival
+Region: Ypres, Belgium
+Address: Grote Markt 34, 8900 Ieper, Belgium</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>2.8855,50.8512,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Conventions</name>
+      <Placemark>
+        <name>CatCon</name>
+        <description>Type: Festival/Convention
+Region: Pasadena, California, USA
+Address: 300 E Green St, Pasadena, CA 91101, USA</description>
+        <styleUrl>#Festival_Convention</styleUrl>
+        <Point><coordinates>-118.1447,34.1436,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
