@@ -3,6 +3,7 @@
 Cat-related places around the world, as a live web map and a KML file for Google My Maps. Custom icon per place type.
 
 Live map: https://nazelizurna.github.io/cat-map-project/
+
 Google Maps: https://www.google.com/maps/d/edit?mid=1y0c3q_vG4JOmr3z0xNpvdW7b1BO8dnY&usp=sharing
 
 ## Files
