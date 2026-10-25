@@ -304,6 +304,14 @@ Address: 17-19 Nishitsubochoco, Onomichi, Hiroshima 722-0032, Japan</description
         <styleUrl>#Museum</styleUrl>
         <Point><coordinates>133.2010,34.4000,0</coordinates></Point>
       </Placemark>
+      <Placemark>
+        <name>Cat Museum</name>
+        <description>Type: Museum
+Region: Vsevolozhsk, Russia
+Address: Vsevolozhsk, Leningrad Oblast, Russia</description>
+        <styleUrl>#Museum</styleUrl>
+        <Point><coordinates>30.6651638,60.0100265,0</coordinates></Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Parks</name>
@@ -325,6 +333,62 @@ Region: San Antonio, Texas, USA
 Address: 300 Alamo Plaza, San Antonio, TX 78205, USA</description>
         <styleUrl>#Historic_Site</styleUrl>
         <Point><coordinates>-98.4861,29.4260,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Kazan Cat Monument</name>
+        <description>Type: Historic Site
+Region: Kazan, Russia
+Address: Bauman St 38, Kazan, Republic of Tatarstan, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>49.112354,55.792345,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Elisey Cat Monument</name>
+        <description>Type: Historic Site
+Region: Saint Petersburg, Russia
+Address: Malaya Sadovaya St 3, Saint Petersburg, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>30.337845,59.934211,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Vasilisa Cat Monument</name>
+        <description>Type: Historic Site
+Region: Saint Petersburg, Russia
+Address: Malaya Sadovaya St 8, Saint Petersburg, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>30.338122,59.934389,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Semyon Cat Monument</name>
+        <description>Type: Historic Site
+Region: Murmansk, Russia
+Address: Semenovskoe Lake Embankment, Murmansk, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>33.078412,68.988451,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Yoshi-Cat Sculpture</name>
+        <description>Type: Historic Site
+Region: Yoshkar-Ola, Russia
+Address: Lenina Square 1, Yoshkar-Ola, Mari El Republic, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>47.889154,56.632412,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Plumber and Cat Monument</name>
+        <description>Type: Historic Site
+Region: Omsk, Russia
+Address: Lenina St 14, Omsk, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>73.373245,54.984521,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat on a Bench Monument</name>
+        <description>Type: Historic Site
+Region: Nizhny Novgorod, Russia
+Address: Bolshaya Pokrovskaya St 41, Nizhny Novgorod, Russia</description>
+        <styleUrl>#Historic_Site</styleUrl>
+        <Point><coordinates>44.001423,56.321451,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>
@@ -385,6 +449,86 @@ Region: Ypres, Belgium
 Address: Grote Markt 34, 8900 Ieper, Belgium</description>
         <styleUrl>#Festival</styleUrl>
         <Point><coordinates>2.8855,50.8512,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat Museum</name>
+        <description>Type: Festival
+Region: Vsevolozhsk, Russia
+Address: Vsevolozhsk, Leningrad Oblast, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>30.6651638,60.0100265,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cats Republic</name>
+        <description>Type: Festival
+Region: Saint Petersburg, Russia
+Address: Yakubovicha St 10, Saint Petersburg, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>30.302302,59.934149,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cats Republic (Liteyny)</name>
+        <description>Type: Festival
+Region: Saint Petersburg, Russia
+Address: Liteyny Avenue 60, Saint Petersburg, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>30.348421,59.934812,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>VDNH (Pavilion 57)</name>
+        <description>Type: Festival
+Region: Moscow, Russia
+Address: Prospekt Mira 119, Moscow, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>37.632128,55.829141,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Tishinka Exhibition Center</name>
+        <description>Type: Festival
+Region: Moscow, Russia
+Address: Tishinskaya Square 1, Moscow, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>37.583311,55.769411,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Expoforum</name>
+        <description>Type: Festival
+Region: Saint Petersburg, Russia
+Address: Peterburgskoye Shosse 64/1, Saint Petersburg, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>30.357022,59.763481,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Stage</name>
+        <description>Type: Festival
+Region: Moscow, Russia
+Address: Sharikopodshipnikovskaya St 13/33, Moscow, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>37.676631,55.721455,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuna Center</name>
+        <description>Type: Festival
+Region: Podolsk, Russia
+Address: Krasnaya St 1А, Podolsk, Moscow Oblast, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>37.545129,55.426543,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Sokolniki (Pavilion 11.1)</name>
+        <description>Type: Festival
+Region: Moscow, Russia
+Address: Luchevoy Prosek 5А, Moscow, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>37.675432,55.800234,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Gorod-Lefortovo TRK</name>
+        <description>Type: Festival
+Region: Moscow, Russia
+Address: Shosse Entuziastov 12/2, Moscow, Russia</description>
+        <styleUrl>#Festival</styleUrl>
+        <Point><coordinates>37.693451,55.748312,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>
