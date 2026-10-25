@@ -1,4 +1,5 @@
 # Cat Map Project
+![Uploading live-google-maps.png…]()
 
 Cat-related places around the world, as a live web map and a KML file for Google My Maps. Custom icon per place type.
 
