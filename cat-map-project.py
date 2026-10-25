@@ -5,7 +5,7 @@ import time
 from urllib.parse import quote
 from xml.sax.saxutils import escape
 
-MAP_NAME = "Cat Lovers Global Travel Map"
+MAP_NAME = "Cat Map Project"
 
 # Use raw.githubusercontent.com (serves the image itself; github.com/.../blob/... serves an HTML page)
 ICON_BASE = "https://raw.githubusercontent.com/nazelizurna/cat-map-project/main/assests/"
@@ -23,7 +23,7 @@ TYPES = {
     "Pub/Bar":             ("pub.png",        "Pubs & Bars"),
     "Cafe":                ("cafe.png",       "Cafes"),
     "Festival":            ("festival.png",   "Festivals"),
-    "Festival/Convention": ("park con.png",   "Conventions"),
+    "Festival/Convention": ("conventions.png",   "Conventions"),
 }
 
 
