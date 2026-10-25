@@ -1,0 +1,34 @@
+name: Build cat map KML
+
+on:
+  push:
+    paths:
+      - cat_places.csv
+      - make_cat_kml.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install geopy
+
+      - name: Geocode new rows and build KML
+        run: python make_cat_kml.py --geocode
+
+      - name: Commit updated CSV and KML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cat_places.csv cat_places.kml
+          git diff --staged --quiet || git commit -m "Update cat_places.kml"
+          git push
