@@ -1,8 +1,9 @@
-# Cat Lovers Global Travel Map
+# Cat Map Project
 
 Cat-related places around the world, as a live web map and a KML file for Google My Maps. Custom icon per place type.
 
 Live map: https://nazelizurna.github.io/cat-map-project/
+Google Maps: https://www.google.com/maps/d/edit?mid=1y0c3q_vG4JOmr3z0xNpvdW7b1BO8dnY&usp=sharing
 
 ## Files
 
@@ -40,7 +41,7 @@ Edit the file as plain text. TextEdit's default rich text format breaks it (use 
 
 ## Use in Google My Maps
 
-My Maps can't auto-sync from GitHub. Import by hand:
+Requires import by hand:
 
 1. Download `cat_places.kml` (open it in the repo, click Raw, save).
 2. Go to [mymaps.google.com](https://mymaps.google.com) → Create a new map → Import.
